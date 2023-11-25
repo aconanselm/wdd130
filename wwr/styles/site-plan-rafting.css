@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=font-name&family=");
+:root {
+  --primary-color: #196fb3;
+  --secondary: #fafbfe;
+  --accent-1: #e09416;
+  --accent-2: #8ecdeb;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color: var(--secondary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  color: var(--primary-color);
+}
+img {
+  width: 30%;
+  height: auto;
+}
